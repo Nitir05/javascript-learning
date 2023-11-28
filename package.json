@@ -1,0 +1,19 @@
+{
+  "name": "javascript-learning",
+  "version": "1.0.0",
+  "description": "Code repo for javascript learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitir05/javascript-learning.git"
+  },
+  "author": "Nitin Rahangda;e",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nitir05/javascript-learning/issues"
+  },
+  "homepage": "https://github.com/Nitir05/javascript-learning#readme"
+}
