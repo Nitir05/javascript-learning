@@ -1,0 +1,18 @@
+#Code is executed in two phase in Javascript
+# Memory creation/allocation Phase and Code Execution Phase
+# Phase 1 ----------------> Memory Creation Phase
+  -> Memory is allocated to each variable and function
+  -> In the first phase variables are given value as undefined
+  -> where as for function entire function is stored 
+# Phase 2 ----------------> Code creation Phase
+  -> In code creation phase the code is run line by line
+  -> Variables are assigned with their original value in this phase
+  -> If there is any function in the code, the entire new Execution context is created
+  -> It also goes through same phases
+  -> once the functio execution is done, its execution context is deleted
+# Once the whole code is done the main Execution context is deleted as well
+# Javascript manages all this functionality with the help of call stack
+# Initially the Global Execution context is pushed into the stack 
+# It keeps on pushing the Execution contexts which are being created into the stack while running the code
+# once the work is done Execution context are removed from Stack in LIFO manner
+# Once the entire code is done running the Global Execution Context is removed from Call Stack as well

@@ -1,0 +1,5 @@
+# Everything in Javascript happens inside an execution context
+# Execution context is made up of two components (Memory and Code)
+#  Memory Component includes the variables and functions in key value pair
+# Code component is where the Javascript code runs line by line
+# Javascript is by defualt synchronous and single threaded language
