@@ -1,4 +1,4 @@
-# Episode 24 : Promise APIs (all, allSettled, race, any) + Interview Questions 🔥
+# Episode 23 : Promise APIs (all, allSettled, race, any) + Interview Questions 🔥
 
 ###
 
